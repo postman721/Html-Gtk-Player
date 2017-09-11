@@ -26,7 +26,7 @@ class HTML_5(Gtk.Window):
 #User agent settings
 ######################  
         self.agent=self.web.get_settings()
-        self.agent.set_property('user-agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64: rv:52.0) Gecko/20100101 Firefox/52.0')
+        self.agent.set_property('user-agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) HTML5-GTK Player/0.3 Safari/538.1')
         self.agent.set_property("enable-plugins", True)
         self.agent.set_property("enable-dom-paste", True)
         self.agent.set_property("enable-private-browsing", True)
@@ -94,9 +94,9 @@ class HTML_5(Gtk.Window):
     def about1 (self, widget):
         about1 = Gtk.AboutDialog()
         about1.set_program_name("HTML-GTK-PLAYER")
-        about1.set_version("0.2")
+        about1.set_version("0.3")
         about1.set_copyright(" Copyright (c) 2017 JJ Posti <techtimejourney.net>")
-        about1.set_comments("This program comes with ABSOLUTELY NO WARRANTY; for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under GPL Version 2, June 1991.---------------------------------------------------------------------------")
+        about1.set_comments("This program comes with ABSOLUTELY NO WARRANTY; for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under GPL Version 2, June 1991.--------------------------------------------------------------------------------------This version fixes Youtube playback issues.")
         about1.set_website("www.techtimejourney.net")
         about1.run()
         about1.destroy()         
