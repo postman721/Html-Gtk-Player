@@ -9,6 +9,8 @@ Html-Gtk-Player(Python version)
 #This is free software, and you are welcome to redistribute it under
 #GPL Version 2, June 1991″)
 
+v.0.3, a.k.a version 3, fixes HTML5 rendering issues and increases stability.
+
 Supports Dailymotion, Vimeo and Youtube playback.
 
 Dependencies:
