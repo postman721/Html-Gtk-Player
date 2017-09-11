@@ -1,5 +1,5 @@
-# Html-Gtk-Player
-Html-Gtk-Player(Python version)
+# Html5-Gtk-Player
+Html5-Gtk-Player(Python version)
 
 ![html2 x70132](https://user-images.githubusercontent.com/29865797/28210441-19cadad6-68a0-11e7-98db-605dc38c77c5.jpg)
 
