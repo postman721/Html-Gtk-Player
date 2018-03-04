@@ -21,7 +21,7 @@ class HTML_5(Gtk.Window):
 #Webview
 #######################
         self.web = WebKit.WebView()
-        self.show()        
+                
 #######################
 #User agent settings
 ######################  
@@ -94,7 +94,7 @@ class HTML_5(Gtk.Window):
     def about1 (self, widget):
         about1 = Gtk.AboutDialog()
         about1.set_program_name("HTML-GTK-PLAYER")
-        about1.set_version("0.3")
+        about1.set_version("0.4")
         about1.set_copyright(" Copyright (c) 2017 JJ Posti <techtimejourney.net>")
         about1.set_comments("This program comes with ABSOLUTELY NO WARRANTY; for details see: http://www.gnu.org/copyleft/gpl.html. This is free software, and you are welcome to redistribute it under GPL Version 2, June 1991.--------------------------------------------------------------------------------------This version fixes Youtube playback issues.")
         about1.set_website("www.techtimejourney.net")
